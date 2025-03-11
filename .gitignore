@@ -39,6 +39,7 @@ Thumbs.db
 
 # Specific to this project
 *.csv
+visualization/media/
 
 # DO NOT IGNORE these important files
 !requirements.txt
