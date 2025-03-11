@@ -4,14 +4,14 @@ __pycache__/
 *$py.class
 
 # Logs and output directories
-logs/
+logs/*
 *.npz
 
 # Model files (large binaries)
 models/*.zip
 
 # Results and plots
-results/
+results/*
 *.png
 
 # Distribution / packaging
@@ -43,4 +43,9 @@ Thumbs.db
 # DO NOT IGNORE these important files
 !requirements.txt
 !run.sh
-!run_comparison.sh 
+!run_comparison.sh
+
+# Preserve empty directories
+!models/.gitkeep
+!logs/.gitkeep
+!results/.gitkeep 
