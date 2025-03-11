@@ -1,0 +1,46 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs and output directories
+logs/
+*.npz
+
+# Model files (large binaries)
+models/*.zip
+
+# Results and plots
+results/
+*.png
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Specific to this project
+*.csv
+
+# DO NOT IGNORE these important files
+!requirements.txt
+!run.sh
+!run_comparison.sh 
